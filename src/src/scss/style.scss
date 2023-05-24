@@ -1,0 +1,36 @@
+@import "material-shadows.scss";
+
+*, html {
+  box-sizing: border-box;
+  font-family: 'Playfair', serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.app-title {
+  font-family: 'Kanit', 'Arial Black', sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #775941;
+  border: 1px solid #775941;
+  margin: 30px auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-align: center;
+  padding: 4px 20px;
+}
+
+.app-body {
+   background-color: #a6886e;
+   text-align: center;
+}
+
+.app-wrapper {
+   @include box-shadow-helper(3);
+   background-color: #e5e5e5;
+   margin: 0 60px 40px 60px;
+   min-height: 300px;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+}
