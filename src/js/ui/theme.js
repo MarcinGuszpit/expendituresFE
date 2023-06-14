@@ -32,6 +32,10 @@ export const app_theme = createTheme({
 const theme_palette_2 = {
     palette: {
         mode: 'light',
+        common: {
+            color_1: '#775941',
+            color_2: '#c0d963',
+        },
         primary: {
             main: '#775941',
         },

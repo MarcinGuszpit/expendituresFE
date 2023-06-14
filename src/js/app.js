@@ -9,7 +9,7 @@ const appNode = document.getElementById("App");
 const app = createRoot(appNode);
 app.render(
     <React.Fragment>
-        <ThemeProvider theme={app_style_2}>
+        <ThemeProvider theme={app_theme}>
             < RouterProvider router={router}></RouterProvider>
         </ThemeProvider>
     </React.Fragment>);
