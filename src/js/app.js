@@ -7,6 +7,7 @@ import {app_style_2, app_theme} from "./ui/theme";
 
 const appNode = document.getElementById("App");
 const app = createRoot(appNode);
+
 app.render(
     <React.Fragment>
         <ThemeProvider theme={app_theme}>
